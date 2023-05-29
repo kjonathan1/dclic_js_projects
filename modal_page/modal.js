@@ -1,5 +1,3 @@
-let openBtn = document.getElementById('btn-open');
-let closeBtn = document.getElementById('btn-close');
 let modal = document.getElementsByClassName("modal");
 
 function openModal() {
