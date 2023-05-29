@@ -1,0 +1,24 @@
+.page{
+    width: 80%;
+    margin: auto;
+    padding: 20px 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.modal{
+    width: 50%; 
+    margin: auto;
+    padding: 10px 10px;
+    background-color: rgb(239, 180, 103);
+    border-radius: 10px;
+    
+}
+
+.btn{
+    padding-top: 10px 10px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}

@@ -10,11 +10,21 @@
     </head>
     <body>
        <div class="page">
-            <input class="btn" id="btn-open" type="button" onclick=openModal() value="Open modal" />
+            <h2>Ma liste de Taches a faire</p>
        
             <div class="modal">
-                <input class="btn" type="button" id="btn-close" onclick=closeModal() value="Close modal" />
-                <p> Youpi!!! this is my modal content</p>
+                <div>
+                    <input type="text" />
+                    <input type="button" class="btn" value="OK" onclick=add() />
+                </div>
+                <div>
+                    <ul>
+                        <li>Tache 1 <input type="checkbox"/><input type="button" class="btn" value="Sup" /></li>
+                        <li>Tache 2 <input type="checkbox"/><input type="button" class="btn" value="Sup" /></li>
+                        <li>Tache 3 <input type="checkbox"/><input type="button" class="btn" value="Sup" /></li>
+                    </ul>
+                </div>
+                <p> Il reste xx Taches</p>
             </div>
        </div>
        
