@@ -6,11 +6,19 @@
         <title>Modal page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+       <div class="page">
+            <input class="btn" id="btn-open" type="button" onclick=openModal() value="Open modal" />
+       
+            <div class="modal">
+                <input class="btn" type="button" id="btn-close" onclick=closeModal() value="Close modal" />
+                <p> Youpi!!! this is my modal content</p>
+            </div>
+       </div>
        
         
-        <script src="" async defer></script>
+        <script src="modal.js" async defer></script>
     </body>
 </html>
